@@ -1,11 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-
+background-color: #E5E5E5;
+width: 100%;
+color: #0A033C;
+font-family: 'Metrophobic', sans-serif;
 }
 
 
@@ -26,3 +29,11 @@ body {
     grid-template-columns: repeat(2,1fr);
     z-index: 2;
 }
+
+/* header style only */
+.logo-image-box{
+    background-color: #FF5364;
+    border-radius: 8px;
+}
+
+/* header style only */
