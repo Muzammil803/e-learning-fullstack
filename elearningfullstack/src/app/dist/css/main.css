@@ -1,0 +1,28 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+
+
+
+.backShadow {
+    width:100%;
+    height: 100vh;
+    background: rgba(10, 3, 60, 0.50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.SignUpModal {
+    position: relative;
+    grid-template-columns: repeat(2,1fr);
+    z-index: 2;
+}
